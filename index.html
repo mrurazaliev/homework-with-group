@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+<header class="bg-white py-[20px]">
+  <div class="max-w-[1200px] w-[90%] m-auto">
+    <div class="flex items-center justify-center lg:justify-between"> 
+      <img src="./images/image.png" alt="" class="w-[180px]">
+      <div class="hidden lg:flex items-center gap-[40px]">
+        <div class="flex items-center bg-white border border-[#D7D7D7] rounded-[10px] h-[60px] px-[20px] w-[450px] ml-[20px]">
+          <input  type="text" placeholder="Search bar" class="outline-none w-full text-[#1E1F29]">
+       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.707 20.293L18.025 16.611C19.258 15.071 20 13.122 20 11C20 6.038 15.962 2 11 2C6.038 2 2 6.038 2 11C2 15.962 6.038 20 11 20C13.122 20 15.071 19.258 16.611 18.025L20.293 21.707L21.707 20.293ZM4 11C4 7.14 7.14 4 11 4C14.86 4 18 7.14 18 11C18 14.86 14.86 18 11 18C7.14 18 4 14.86 4 11Z" fill="#CCCCCC"/>
+</svg>
+        </div>
+        <div class="flex items-center gap-[30px] text-[#1E1F29] font-semibold">
+          <button class="flex items-center gap-[8px]">Category<span>▼</span></button>
+          <button>Become an Mentor</button>
+        </div>
+        <div class="flex items-center gap-[15px]">
+          <button class="border border-[#1E2A52] text-[#1E2A52] h-[55px] px-[35px] rounded-[10px] font-semibold">Login</button>
+          <button class="bg-[#F72585] text-white h-[55px] px-[35px] rounded-[10px] font-semibold">Sign </button>
+        </div>
+      </div>
+    </div>
+    <div class="lg:hidden mt-[20px]">
+      <div class="flex items-center bg-white border border-[#D7D7D7] rounded-[10px] h-[55px] px-[20px]">
+        <input type="text" placeholder="Search bar" class="outline-none w-full text-[#1E1F29]">
+        <img src="./images/search.png"  alt="" class="w-[20px]">
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+    <section class="bg-[#F4F5F7] py-[40px]">
+  <div class="max-w-[1400px] w-[95%] m-auto bg-[#031B42] rounded-[16px] px-[30px] md:px-[60px] py-[50px] flex flex-col lg:flex-row items-center justify-between gap-[50px] relative overflow-hidden">
+    <div class="absolute w-[400px] h-[400px] bg-[#8B5CF6] opacity-[0.25] blur-[120px] right-[250px] top-[100px]"></div>
+    <div class="flex flex-col gap-[30px] relative z-10">
+      <h1 class="text-white text-[50px] md:text-[80px] font-bold leading-[70px] md:leading-[100px] max-w-[700px]">
+        Find the Best
+        Courses and
+        Amazing Mentor
+      </h1>
+      <p class="text-[#D1D5DB] text-[18px] leading-[35px] max-w-[700px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis.
+      </p>
+      <div class="bg-white rounded-[12px] p-[10px] flex flex-col md:flex-row gap-[15px] md:items-center md:justify-between max-w-[700px]">
+        <div class="flex items-center gap-[15px] px-[15px]">
+          <img  src="./images/search.png" alt="" class="w-[24px]">
+          <input 
+            type="text" placeholder="Type in the course you want to learn" class="outline-none w-full text-[#1E1F29]">
+        </div>
+        <button class="bg-[#F72585] text-white h-[60px] px-[40px] rounded-[10px] font-semibold">Search</button>
+      </div>
+      <div class="flex flex-col md:flex-row gap-[25px] md:gap-[50px] mt-[10px]">
+        <div class="flex items-center gap-[12px] text-white">
+          <img 
+            src="./images/image copy.png" 
+            alt=""
+            class="w-[24px]"
+          >
+          <p class="text-[18px] font-semibold">
+            Life Time Access
+          </p>
+        </div>
+        <div class="flex items-center gap-[12px] text-white">
+          <img 
+            src="./images/image copy 2.png" 
+            alt=""
+            class="w-[24px]"
+          >
+          <p class="text-[18px] font-semibold">
+            Expert Mentor
+          </p>
+        </div>
+        <div class="flex items-center gap-[12px] text-white">
+          <img 
+            src="./images/image copy 3.png" 
+            alt=""
+            class="w-[24px]"
+          >
+          <p class="text-[18px] font-semibold">
+            100K+ Courses
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full lg:w-[500px] h-[650px] bg-[#E5E7EB] rounded-[12px] relative z-10">
+      <div class="absolute top-[50px] left-[50px] w-[70px] h-[70px] bg-[#4F8EF7] rounded-[12px] rotate-[-20deg] flex items-center justify-center"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M34.1801 17.8318C31.7472 11.8101 26.7379 8.9722 21.9345 9.45339C21.6163 9.1137 21.2192 8.83882 20.7581 8.65983C19.1827 8.04828 17.4033 8.7672 16.6948 10.3015C16.488 10.7495 16.3932 11.222 16.3998 11.6864C12.6025 14.6738 10.9713 20.184 13.4112 26.223C14.9899 30.1304 15.0867 32.6381 14.2695 34.814C14.1329 35.1778 13.7178 36.0524 13.4366 36.6448L13.4366 36.6448C13.3036 36.9251 13.2005 37.1423 13.1711 37.2123L12.919 37.8181L14.9629 42.877L23.9944 39.228C24.9363 40.6802 26.2171 41.3889 28.1442 41.7076C30.5148 42.0998 32.9058 41.1338 34.3387 39.2049C35.3666 37.8211 35.7645 36.172 35.5454 34.5611L44.6328 30.8896L42.5889 25.8307L41.9866 25.57C41.9233 25.5426 41.7078 25.4612 41.4259 25.3548L41.4256 25.3546L41.425 25.3544L41.4248 25.3544C40.8124 25.1231 39.8879 24.7739 39.5311 24.6035C37.4278 23.599 35.7533 21.7255 34.1801 17.8318ZM32.3743 35.8423L27.0958 37.9749C27.4629 38.2802 27.9391 38.4302 28.6665 38.5506C29.8541 38.747 31.052 38.2631 31.7699 37.2967C32.1023 36.8492 32.3031 36.3536 32.3743 35.8423ZM38.1521 27.4911C38.602 27.706 39.5229 28.059 40.1301 28.2873L40.467 29.1213L16.7311 38.7112L16.3945 37.8779C16.6711 37.2981 17.0905 36.4041 17.2652 35.9392C18.3756 32.9826 18.2469 29.6495 16.3782 25.0243C14.1125 19.4165 16.2501 14.7435 20.2069 13.1448C24.1525 11.5507 28.9543 13.4397 31.2132 19.0306C33.0759 23.641 35.2993 26.1287 38.1521 27.4911Z" fill="white"/>
+</svg>
+</div>
+      <div class="absolute bottom-[220px] left-[30px] w-[70px] h-[70px] bg-[#031B42] rounded-[12px] rotate-[-20deg] flex items-center justify-center">
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M26.0342 6.99379C23.8508 7.76695 22.5355 8.52547 21.2017 9.88652C20.7079 10.3904 20.2722 10.941 19.8972 11.5361C19.2595 11.3255 18.6026 11.1801 17.9296 11.0996C15.9969 10.8686 14.4164 11.1078 12.3113 11.8533C6.67342 13.8498 4.23064 19.972 6.37908 26.039C8.00158 30.6208 12.1236 34.1421 18.3976 36.7368C21.6908 38.0987 25.6671 39.1925 28.3697 39.5664L29.9161 39.7804L30.9832 38.641C32.8483 36.6495 35.2501 33.2971 36.9523 30.1662C40.1952 24.2014 41.1826 18.8708 39.5601 14.289C37.4344 8.2862 31.63 5.03827 26.0342 6.99379ZM36.5436 15.3572C37.8148 18.9468 36.9906 23.3962 34.1409 28.6377C32.5872 31.4954 30.382 34.5824 28.7131 36.3832C26.2828 36.034 22.6264 35.0228 19.6205 33.7797C14.1073 31.4996 10.6667 28.5604 9.39553 24.9708C7.80813 20.4881 9.50201 16.2428 13.3795 14.8697C15.0532 14.277 16.1549 14.1103 17.5498 14.277C18.3737 14.3755 19.1556 14.614 19.8946 14.9962L21.4236 15.7871L22.1007 14.2045C22.4384 13.4151 22.9014 12.7241 23.4873 12.1262C24.4398 11.1542 25.3435 10.6331 27.0961 10.0124C30.9313 8.67219 34.9782 10.9367 36.5436 15.3572Z" fill="white"/>
+</svg>
+
+      </div>
+      <div class="absolute top-[300px] right-[20px] w-[70px] h-[70px] bg-[#F72585] rounded-[12px] rotate-[30deg] flex items-center justify-center">
+        <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.18293 30.9522C8.6065 28.942 9.32902 26.7635 11.1695 24.3998C9.90791 21.6826 9.69397 19.3974 10.7078 17.5684C11.7217 15.7393 13.773 14.7098 16.7458 14.3398C17.7751 11.5264 19.2397 9.75923 21.2499 9.1828C23.2602 8.60637 25.4387 9.32889 27.8024 11.1693C30.5195 9.90778 32.8047 9.69384 34.6338 10.7077C36.4628 11.7216 37.4924 13.7729 37.8624 16.7457C40.6758 17.7749 42.4429 19.2395 43.0193 21.2498C43.5958 23.26 42.8733 25.4385 41.0328 27.8023C42.2944 30.5194 42.5083 32.8046 41.4944 34.6337C40.4806 36.4627 38.4293 37.4922 35.4565 37.8623C34.4272 40.6756 32.9626 42.4428 30.9524 43.0192C28.9421 43.5956 26.7636 42.8731 24.3999 41.0327C21.6827 42.2942 19.3975 42.5082 17.5685 41.4943C15.7394 40.4805 14.7099 38.4291 14.3399 35.4563C11.5265 34.4271 9.75936 32.9625 9.18293 30.9522ZM16.2988 32.7376C16.9342 32.9308 17.3843 33.4966 17.4296 34.1592C17.6065 36.7468 18.2349 38.205 19.1199 38.6955C20.0048 39.1861 21.5745 38.9462 23.8626 37.7251C24.4486 37.4124 25.1668 37.4942 25.6675 37.9307C27.6222 39.6353 29.0977 40.2221 30.0703 39.9432C31.0429 39.6643 31.9832 38.3848 32.7377 35.9034C32.9309 35.2679 33.4967 34.8179 34.1594 34.7726C36.7469 34.5956 38.2051 33.9672 38.6957 33.0823C39.1862 32.1973 38.9464 30.6277 37.7252 28.3396C37.4125 27.7536 37.4943 27.0353 37.9309 26.5347C39.6354 24.5799 40.2222 23.1044 39.9433 22.1318C39.6644 21.1592 38.3849 20.2189 35.9035 19.4644C35.268 19.2712 34.818 18.7054 34.7727 18.0428C34.5957 15.4553 33.9673 13.997 33.0824 13.5065C32.1975 13.016 30.6278 13.2558 28.3397 14.4769C27.7537 14.7896 27.0354 14.7078 26.5348 14.2713C24.58 12.5667 23.1046 11.98 22.132 12.2588C21.1594 12.5377 20.219 13.8172 19.4645 16.2986C19.2713 16.9341 18.7056 17.3841 18.0429 17.4295C15.4554 17.6064 13.9971 18.2348 13.5066 19.1197C13.0161 20.0047 13.2559 21.5744 14.477 23.8625C14.7898 24.4484 14.7079 25.1667 14.2714 25.6673C12.5669 27.6221 11.9801 29.0976 12.259 30.0702C12.5379 31.0428 13.8174 31.9831 16.2988 32.7376ZM33.5848 23.4676L24.2474 26.1451L22.8173 21.1578L19.7412 22.0399L22.0534 30.1031L34.4668 26.5436L33.5848 23.4676Z" fill="#FFF5F9"/>
+</svg>
+      </div>
+      <div class="absolute bottom-[40px] right-[30px] bg-white rounded-[12px] px-[30px] py-[20px] text-center">
+        <h1 class="text-[#1E1F29] text-[45px] font-bold">
+          500+
+        </h1>
+        <p class="text-[#1E1F29] font-semibold">
+          Total Review
+        </p>
+        <div class="flex items-center gap-[5px] mt-[10px] text-[#F59E0B] text-[24px] justify-center">
+          ★ ★ ★ ★ ★
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-[#F5F5F5] py-[70px]">
+  <div class="max-w-[1200px] w-[90%] m-auto">
+    <h1 class="text-[45px] md:text-[60px] font-bold text-[#1E2A52] text-center">
+      Trending Courses
+    </h1>
+    <div class="flex flex-wrap justify-center gap-[35px] mt-[40px]">
+      <button class="bg-[#F72585] text-white px-[45px] h-[50px] rounded-[8px] font-semibold">
+        All
+      </button>
+      <button class="text-[#8B8B8B] font-semibold">
+        Business
+      </button>
+      <button class="text-[#8B8B8B] font-semibold">
+        Art & Design
+      </button>
+      <button class="text-[#8B8B8B] font-semibold">
+        Development
+      </button>
+      <button class="text-[#8B8B8B] font-semibold">
+        Marketing
+      </button>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[60px]">
+      <div class="flex flex-col gap-[18px]">
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          Interpersonal Skills - Work Better
+          With Others!
+        </h1>
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+        <div class="flex items-center gap-[8px]">
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $384
+          </h1>
+        </div>
+      </div>
+      <div class="flex flex-col gap-[18px]">
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          How To Become An Expert Web
+          Developer
+        </h1>
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+        <div class="flex items-center gap-[8px]">
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $735
+          </h1>
+        </div>
+      </div>
+      <div class="flex flex-col gap-[18px]">
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          User Experience Design
+          Essentials
+        </h1>
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+        <div class="flex items-center gap-[8px]">
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $826
+          </h1>
+        </div>
+      </div>
+      <div class="flex flex-col gap-[18px]">
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          Creating 3D Modelling In
+          Blender
+        </h1>
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+        <div class="flex items-center gap-[8px]">
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $710
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[60px]">
+
+      <div class="flex flex-col gap-[18px]">
+
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          Interpersonal Skills - Work Better
+          With Others!
+        </h1>
+
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+
+        <div class="flex items-center gap-[8px]">
+
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+
+        </div>
+
+        <div class="flex items-center gap-[10px]">
+
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $384
+          </h1>
+
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-[18px]">
+
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          How To Become An Expert Web
+          Developer
+        </h1>
+
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+
+        <div class="flex items-center gap-[8px]">
+
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+
+        </div>
+
+        <div class="flex items-center gap-[10px]">
+
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $735
+          </h1>
+
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-[18px]">
+
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          User Experience Design
+          Essentials
+        </h1>
+
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+
+        <div class="flex items-center gap-[8px]">
+
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+
+        </div>
+
+        <div class="flex items-center gap-[10px]">
+
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $826
+          </h1>
+
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-[18px]">
+
+        <div class="bg-[#D9D9D9] h-[230px] rounded-[6px]">
+        </div>
+
+        <h1 class="text-[22px] font-semibold text-[#1E2A52] leading-[34px]">
+          Creating 3D Modelling In
+          Blender
+        </h1>
+
+        <p class="text-[#F72585] text-[15px] font-medium">
+          Tanah Air Team
+        </p>
+
+        <div class="flex items-center gap-[8px]">
+
+          <p class="text-[#F59E0B]">
+            ★★★★★
+          </p>
+
+          <p class="text-[#8B8B8B] text-[14px]">
+            (2078)
+          </p>
+
+        </div>
+
+        <div class="flex items-center gap-[10px]">
+
+          <p class="text-[#B0B0B0] line-through text-[18px]">
+            $640
+          </p>
+
+          <h1 class="text-[35px] font-bold text-[#1E2A52]">
+            $710
+          </h1>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="flex justify-center mt-[60px]">
+      <button class="bg-[#F72585] text-white px-[60px] h-[55px] rounded-[8px] font-semibold">
+        More Courses
+      </button>
+    </div>
+  </div>
+    </section>
+    <section class="bg-[#F5F5F5] py-[70px]">
+  <div class="max-w-[1200px] w-[90%] m-auto">
+    <h1 class="text-[45px] md:text-[60px] font-bold text-[#1E2A52]">
+      Top Categories
+    </h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] mt-[50px]">
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Art & Design
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Business
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Copy Writing
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Marketing
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Programming
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Photography
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px]">
+        <h1 class="text-white text-[24px] font-semibold">
+          Videography
+        </h1>
+      </div>
+      <div class="bg-[#707070] h-[260px] rounded-[6px] flex items-end justify-center pb-[25px] text-center">
+        <h1 class="text-white text-[24px] font-semibold leading-[35px]">
+          Personal
+          Development
+        </h1>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-[#F5F5F5] py-[70px]">
+  <div class="max-w-[1200px] w-[90%] m-auto flex flex-col lg:flex-row items-center justify-between gap-[50px]">
+    <div class="bg-[#D9D9D9] w-full lg:w-[500px] h-[550px] rounded-[8px]">
+    </div>
+    <div class="flex flex-col gap-[30px] text-center lg:text-start">
+      <h1 class="text-[50px] md:text-[65px] font-bold text-[#1E2A52] leading-[70px]">
+        Become an Mentor
+      </h1>
+      <p class="text-[#8B8B8B] text-[18px] leading-[35px] max-w-[650px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Feugiat eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum.
+      </p>
+      <p class="text-[#8B8B8B] text-[18px] leading-[35px] max-w-[650px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Feugiat eu in orci, nunc amet libero.
+      </p>
+      <div class="flex justify-center lg:justify-start">
+        <button class="bg-[#F72585] text-white px-[40px] h-[60px] rounded-[8px] font-semibold">
+          Start Teaching
+        </button>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-[#F5F5F5] py-[70px]">
+  <div class="max-w-[1200px] w-[90%] m-auto flex flex-col lg:flex-row items-center gap-[50px]">
+    <div class="relative">
+      <div class="bg-[#D9D9D9] w-[350px] h-[420px] rounded-[6px]">
+      </div>
+      <div class="absolute bottom-0 left-0 w-[120px] h-[120px] bg-[repeating-linear-gradient(45deg,#ffffff,#ffffff_8px,#D9D9D9_8px,#D9D9D9_16px)] rounded-tr-[80px]">
+      </div>
+    </div>
+    <div class="flex flex-col gap-[30px] text-center lg:text-start">
+      <h1 class="text-[38px] md:text-[35px] font-medium text-[#1E2A52] leading-[60px] max-w-[750px]">
+        After studying here I gained new knowledge
+        and insights. The mentor was very friendly
+        and guided me to get the knowledge I wanted.
+        Thank you!
+      </h1>
+      <div>
+        <h2 class="text-[30px] font-bold text-[#1E2A52]">
+          KecekArif
+        </h2>
+        <p class="text-[#8B8B8B] text-[17px] mt-[10px]">
+          Yang punya Surabaya nanti kapan - kapan tapi
+        </p>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="bg-[#F5F5F5] py-[70px]">
+  <div class="max-w-[1200px] w-[90%] m-auto">
+    <h1 class="text-[45px] md:text-[50px] font-bold text-[#1E2A52]">
+      The Latest Blog
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]">
+      <div class="bg-white rounded-[8px] overflow-hidden shadow-[0px_10px_30px_rgba(0,0,0,0.05)]">
+        <div class="bg-[#D9D9D9] h-[260px]">
+        </div>
+        <div class="p-[25px] flex flex-col gap-[20px]">
+          <div class="flex items-center gap-[15px] text-[#8B8B8B] text-[15px]">
+            <p>3, Mei 2021</p>
+            <p>3 min read</p>
+          </div>
+          <h1 class="text-[32px] font-bold text-[#1E2A52] leading-[45px]">
+            10 graphic design trends to
+            get you inspired in 2021
+          </h1>
+          <p class="text-[#8B8B8B] text-[18px] leading-[32px]">
+            Lorem ipsum dolor sit amet,
+            consec tetur adipiscing elit,
+            sed do eiusmod.
+          </p>
+          <button class="text-[#F72585] text-[18px] font-semibold text-start">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div class="bg-white rounded-[8px] overflow-hidden shadow-[0px_10px_30px_rgba(0,0,0,0.05)]">
+        <div class="bg-[#D9D9D9] h-[260px]">
+        </div>
+        <div class="p-[25px] flex flex-col gap-[20px]">
+          <div class="flex items-center gap-[15px] text-[#8B8B8B] text-[15px]">
+            <p>3, Mei 2021</p>
+            <p>3 min read</p>
+          </div>
+          <h1 class="text-[32px] font-bold text-[#1E2A52] leading-[45px]">
+            Right Triangle Trigonometry
+            Explained
+          </h1>
+          <p class="text-[#8B8B8B] text-[18px] leading-[32px]">
+            Lorem ipsum dolor sit amet,
+            consec tetur adipiscing elit,
+            sed do eiusmod.
+          </p>
+          <button class="text-[#F72585] text-[18px] font-semibold text-start">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div class="bg-white rounded-[8px] overflow-hidden shadow-[0px_10px_30px_rgba(0,0,0,0.05)]">
+        <div class="bg-[#D9D9D9] h-[260px]">
+        </div>
+        <div class="p-[25px] flex flex-col gap-[20px]">
+          <div class="flex items-center gap-[15px] text-[#8B8B8B] text-[15px]">
+            <p>3, Mei 2021</p>
+            <p>3 min read</p>
+          </div>
+          <h1 class="text-[32px] font-bold text-[#1E2A52] leading-[45px]">
+            2 Reasons Why You're
+            Confusing Chemistry
+          </h1>
+          <p class="text-[#8B8B8B] text-[18px] leading-[32px]">
+            Lorem ipsum dolor sit amet,
+            consec tetur adipiscing elit,
+            sed do eiusmod.
+          </p>
+          <button class="text-[#F72585] text-[18px] font-semibold text-start">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+</main>
+   <footer class="bg-[#031B42] py-[70px] rounded-[10px]">
+  <div class="max-w-[1200px] w-[90%] m-auto">
+    <div class="flex flex-col lg:flex-row justify-between gap-[50px]">
+      <div class="flex flex-col gap-[30px]">
+        <img src="./images/image copy 4.png" alt="" class="w-[180px]">
+        <p class="text-[#D1D5DB] text-[18px] leading-[35px] max-w-[450px]">
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Amet tristique placerat
+          eleifend aliquam pellentesque facilisis ultrices.
+        </p>
+      </div>
+      <div class="flex flex-col gap-[25px]">
+        <h1 class="text-white text-[32px] font-bold">
+          About
+        </h1>
+        <div class="flex flex-col gap-[18px] text-[#D1D5DB] text-[18px]">
+          <a href="#">About us</a>
+          <a href="#">Courses</a>
+          <a href="#">Mentor</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="flex flex-col gap-[25px]">
+        <h1 class="text-white text-[32px] font-bold">
+          Support
+        </h1>
+        <div class="flex flex-col gap-[18px] text-[#D1D5DB] text-[18px]">
+          <a href="#">Careers</a>
+          <a href="#">Help & Support</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="flex flex-col gap-[25px]">
+        <h1 class="text-white text-[32px] font-bold">
+          Company
+        </h1>
+        <div class="flex flex-col gap-[18px] text-[#D1D5DB] text-[18px]">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Code of Conduct</a>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center justify-between gap-[25px] mt-[70px]">
+      <div class="flex items-center gap-[30px] text-[#D1D5DB] text-[17px]">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Condition</a>
+      </div>
+      <p class="text-[#D1D5DB] text-[17px] text-center">
+        @2020 TanahAir Studio. All rights reserved.
+      </p>
+    </div>
+  </div>
+   </footer>
+</body>
+</html>
